@@ -1,0 +1,17 @@
+{
+  "name": "GTA VI Countdown",
+  "short_name": "GTA VI",
+  "description": "El reloj está en marcha para Grand Theft Auto VI",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#d946ef",
+  "icons": [
+    {
+      "src": "/img/gta6-logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

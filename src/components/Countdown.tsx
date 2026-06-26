@@ -42,7 +42,7 @@ export default function Countdown() {
   if (!isMounted) return null;
 
   return (
-    <div className="relative flex flex-col items-center justify-center">
+    <div className="relative flex flex-col items-center justify-center w-full">
       {/* Intro Neon Line */}
       <motion.div
         initial={{ width: 0, opacity: 1 }}
