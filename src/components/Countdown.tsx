@@ -96,8 +96,8 @@ function TimeUnit({ value, label, isDays = false }: { value: number; label: stri
       whileHover={{ scale: 1.05 }}
       transition={{ type: "tween", ease: "easeOut", duration: 0.3 }}
     >
-      <div className="relative overflow-hidden flex items-center justify-center 
-                      text-white text-5xl sm:text-6xl md:text-8xl lg:text-9xl font-black 
+      <div className="relative flex items-center justify-center 
+                      text-white text-[13vw] sm:text-6xl md:text-8xl lg:text-9xl font-black 
                       tabular-nums
                       drop-shadow-[0_0_25px_rgba(34,211,238,0.9)] drop-shadow-[0_5px_15px_rgba(0,0,0,1)]
                       group-hover:drop-shadow-[0_0_50px_rgba(217,70,239,1)]
