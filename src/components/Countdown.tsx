@@ -99,8 +99,8 @@ function TimeUnit({ value, label, isDays = false }: { value: number; label: stri
       <div className="relative overflow-hidden flex items-center justify-center 
                       text-white text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-black 
                       tabular-nums
-                      drop-shadow-[0_0_15px_rgba(34,211,238,0.5)]
-                      group-hover:drop-shadow-[0_0_40px_rgba(217,70,239,0.9)]
+                      drop-shadow-[0_0_25px_rgba(34,211,238,0.9)] drop-shadow-[0_5px_15px_rgba(0,0,0,1)]
+                      group-hover:drop-shadow-[0_0_50px_rgba(217,70,239,1)]
                       transition-all duration-300 h-[1.2em]">
         <AnimatePresence mode="popLayout">
           <motion.span
