@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
-// Target launch date - Late 2026 as per rumors
-const TARGET_DATE = new Date('2026-12-01T00:00:00Z').getTime();
+// Target launch date - November 19, 2026 at 12:00
+const TARGET_DATE = new Date('2026-11-19T12:00:00').getTime();
 
 export default function Countdown() {
   const [timeLeft, setTimeLeft] = useState({
